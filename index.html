@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="sidebar">
+        <ul class="sidebar-nav">
+            <img class="rounded-circle img-fluid" src="./picpo.png" alt="" width="30px">
+            <caption ><a class="sidenav-link" >Welcome </a></caption>
+            <li class="sidenav-item ">
+                <a class="sidenav-link" href="">Home</a>
+            </li>
+            <li class="sidenav-item ">
+                <a class="sidenav-link" href="">Log out</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <!-- Navigation bar -->
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+                <a href="" class="navbar-brand">UZI</a>
+                    <ul class="navbar-nav ml-auto">
+                        
+                        <li class="nav-item">
+                            <a href="#about"class="nav-link">alert</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">messages</a>
+                        </li>                        
+                    </ul>
+                </div>
+                
+            </div>
+        </nav>
+    <!-- End of navbar -->
+    <!-- Dashboard section -->
+    <div class="row mt-4">
+        <div class="col">
+            <div class="card" style="width: 18rem;">                
+                <div class="card-body">                    
+                    <img src="..." class="card-img-top" alt="..." >
+                  <h5 class="card-title">5</h5>
+                  <p class="card-text">COURSES TO DO</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">                
+                <div class="card-body">
+                    <img src="..." class="card-img-top" alt="...">
+                  <h5 class="card-title">5</h5>
+                  <p class="card-text">COURSES OVERDUE</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">                
+                <div class="card-body">
+                    <img src="..." class="card-img-top" alt="...">
+                  <h5 class="card-title">5</h5>
+                  <p class="card-text">COMPLETED COURSES</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- End of Dashboard section -->
+    <!-- Reward Section -->
+    <div class="row mt-4  py-5 " id="reward">
+        <div class="col">
+            <h2>REWARDS</h2>
+            <p>your latest achievements</p>
+        </div>
+        <div class="col">
+            <h2>CERTIFICATES</h2>
+            <p> achievemented certificates</p>
+        </div>
+    </div>
+    <!-- End of reward Section -->
+    <!-- Courses Section -->
+    <ul class="nav nav-tabs mt-4">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Achievements</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Certificates</a>
+        </li>
+        
+      </ul>
+    <!-- End of Course Section -->
+    <!-- Display Courses -->
+    <div class="accordion accordion-flush mb-3" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              CAMBRIDGE
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <ol>
+                    <li>Grade 1</li>
+                    <li>Grade 2</li>
+                    <li>Grade 3</li>
+                    <li>Grade 4</li>
+                    <li>Grade 5</li>
+
+                </ol>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              PLAY UZI
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <ol type="a">
+                    <li>Ask Uzi</li>
+                    <li>Uzi Game</li>
+
+                </ol>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              PRIMARY
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <ol>
+                    <li>p 1</li>
+                    <li>p 2</li>
+                    <li>p 3</li>
+                    <li>p 4</li>
+                    <li>p 5</li>
+
+                </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+    </main>
+
+    
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
